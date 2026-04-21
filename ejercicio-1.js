@@ -11,34 +11,34 @@ if (numero1 == numero2 && numero2 == numero3) {
     console.log("Los número 2 y 3 son iguales")
 } else {
     let mayor, medio, menor;
-    if (num1 >= num2 && num1 >= num3) {
-        mayor = num1;
-        if (num2 >= num3) {
-            medio = num2;
-            menor = num3;
+    if (numero1 >= numero2 && numero1 >= numero3) {
+        mayor = numero1;
+        if (numero2 >= numero3) {
+            medio = numero2;
+            menor = numero3;
         } else {
-            medio = num3;
-            menor = num2;
+            medio = numero3;
+            menor = numero2;
         }
     } 
-    else if (num2 >= num1 && num2 >= num3) {
-        mayor = num2;
-        if (num1 >= num3) {
-            medio = num1;
-            menor = num3;
+    else if (numero2 >= numero1 && numero2 >= numero3) {
+        mayor = numero2;
+        if (numero1 >= numero3) {
+            medio = numero1;
+            menor = numero3;
         } else {
-            medio = num3;
-            menor = num1;
+            medio = numero3;
+            menor = numero1;
         }
     } 
     else {
-        mayor = num3;
-        if (num1 >= num2) {
-            medio = num1;
-            menor = num2;
+        mayor = numero3;
+        if (numero1 >= numero2) {
+            medio = numero1;
+            menor = numero2;
         } else {
-            medio = num2;
-            menor = num1;
+            medio = numero2;
+            menor = numero1;
         }
     }
     console.log("De mayor a menor:");
